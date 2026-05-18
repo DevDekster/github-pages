@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio — Seu Nome</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- =====================
+       SLIDE 1 — CAPA
+  ======================== -->
+  <section class="slide" id="slide-1">
+    <div class="slide-inner center">
+      <p class="label">— portfólio</p>
+      <h1 class="hero-name">Seu<br><em>Nome</em></h1>
+      <p class="hero-role">Designer · Desenvolvedor · Criador</p>
+      <div class="scroll-hint">role ↓</div>
+    </div>
+    <div class="bg-shape shape-a"></div>
+  </section>
+
+  <!-- =====================
+       SLIDE 2 — SOBRE
+  ======================== -->
+  <section class="slide" id="slide-2">
+    <div class="slide-inner split">
+      <div class="col-left">
+        <p class="section-number">01</p>
+        <h2>Sobre<br>mim</h2>
+      </div>
+      <div class="col-right">
+        <p class="big-text">
+          Olá! Sou <strong>Seu Nome</strong>, um profissional apaixonado por
+          criar experiências digitais que unem estética e funcionalidade.
+        </p>
+        <p class="body-text">
+          Tenho X anos de experiência em [sua área]. Adoro resolver problemas
+          complexos com soluções elegantes. Quando não estou trabalhando,
+          você me encontra [hobby 1] ou [hobby 2].
+        </p>
+        <ul class="tag-list">
+          <li>UX / UI</li>
+          <li>React</li>
+          <li>Python</li>
+          <li>Figma</li>
+          <!-- Adicione ou remova tags à vontade -->
+        </ul>
+      </div>
+    </div>
+    <div class="bg-shape shape-b"></div>
+  </section>
+
+  <!-- =====================
+       SLIDE 3 — PROJETOS
+  ======================== -->
+  <section class="slide" id="slide-3">
+    <div class="slide-inner">
+      <div class="section-header">
+        <p class="section-number">02</p>
+        <h2>Projetos</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- PROJETO 1 -->
+        <article class="project-card">
+          <div class="project-thumb" style="background-color: #c8e6c9;">
+            <!-- Substitua pela imagem: <img src="img/projeto1.jpg" alt="Projeto 1"> -->
+            <span class="thumb-placeholder">🖼</span>
+          </div>
+          <div class="project-info">
+            <p class="project-year">2024</p>
+            <h3>Nome do Projeto</h3>
+            <p>Breve descrição do que foi feito e qual problema foi resolvido.</p>
+            <a href="https://github.com/seu-usuario/projeto" target="_blank" class="project-link">Ver projeto →</a>
+          </div>
+        </article>
+
+        <!-- PROJETO 2 -->
+        <article class="project-card">
+          <div class="project-thumb" style="background-color: #ffe0b2;">
+            <span class="thumb-placeholder">🖼</span>
+          </div>
+          <div class="project-info">
+            <p class="project-year">2024</p>
+            <h3>Outro Projeto</h3>
+            <p>Breve descrição do que foi feito e qual problema foi resolvido.</p>
+            <a href="#" target="_blank" class="project-link">Ver projeto →</a>
+          </div>
+        </article>
+
+        <!-- PROJETO 3 -->
+        <article class="project-card">
+          <div class="project-thumb" style="background-color: #e1bee7;">
+            <span class="thumb-placeholder">🖼</span>
+          </div>
+          <div class="project-info">
+            <p class="project-year">2023</p>
+            <h3>Mais um Projeto</h3>
+            <p>Breve descrição do que foi feito e qual problema foi resolvido.</p>
+            <a href="#" target="_blank" class="project-link">Ver projeto →</a>
+          </div>
+        </article>
+
+        <!-- Copie um <article class="project-card"> para adicionar mais projetos -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       SLIDE 4 — EXPERIÊNCIA
+  ======================== -->
+  <section class="slide" id="slide-4">
+    <div class="slide-inner">
+      <div class="section-header">
+        <p class="section-number">03</p>
+        <h2>Experiência</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-year">2023 — atual</span>
+            <span class="timeline-company">Empresa Atual</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Cargo / Função</h3>
+            <p>Descrição breve do que você faz ou fazia nessa posição.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-year">2021 — 2023</span>
+            <span class="timeline-company">Empresa Anterior</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Cargo / Função</h3>
+            <p>Descrição breve do que você fez nessa posição.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-year">2019 — 2021</span>
+            <span class="timeline-company">Outra Empresa</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Cargo / Função</h3>
+            <p>Descrição breve do que você fez nessa posição.</p>
+          </div>
+        </div>
+
+        <!-- Copie um <div class="timeline-item"> para adicionar mais -->
+
+      </div>
+    </div>
+    <div class="bg-shape shape-c"></div>
+  </section>
+
+  <!-- =====================
+       SLIDE 5 — CONTATO
+  ======================== -->
+  <section class="slide" id="slide-5">
+    <div class="slide-inner center">
+      <p class="section-number">04</p>
+      <h2 class="contact-title">Vamos<br><em>conversar?</em></h2>
+      <a href="mailto:seu@email.com" class="cta-email">seu@email.com</a>
+      <div class="social-links">
+        <a href="https://github.com/seu-usuario" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/seu-usuario" target="_blank">Twitter</a>
+        <!-- Adicione ou remova links -->
+      </div>
+      <p class="footer-copy">© 2024 Seu Nome</p>
+    </div>
+    <div class="bg-shape shape-d"></div>
+  </section>
+
+  <!-- Navegação lateral -->
+  <nav class="side-nav">
+    <a href="#slide-1" class="nav-dot" title="Início"></a>
+    <a href="#slide-2" class="nav-dot" title="Sobre"></a>
+    <a href="#slide-3" class="nav-dot" title="Projetos"></a>
+    <a href="#slide-4" class="nav-dot" title="Experiência"></a>
+    <a href="#slide-5" class="nav-dot" title="Contato"></a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
